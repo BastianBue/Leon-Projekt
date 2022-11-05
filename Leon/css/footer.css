@@ -1,0 +1,38 @@
+footer{
+    background-color:black;
+    color:white;
+    padding: 40px;
+}
+
+.footer-links{
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 25px;
+}
+
+.footer-section:first-of-type{
+    padding-left: 0;
+}
+
+.footer-section:nth-child(4){
+    padding-right: 0;
+}
+
+.footer-socials{
+    display: flex;
+}
+
+.footer-icon{
+    height: 50px;
+    padding: 0 0 40px;
+}

@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: Montserrat Alternates, "Arial";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+    box-sizing: border-box;
+    width: 100vw;
+    padding:0 50px;
+}
+
+p,span{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 45px;
+}

@@ -1,0 +1,34 @@
+.section-link-text{
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.link-text-red{
+    background-color: red;
+}
+.link-text-gold{
+    background-color: yellow;
+}
+.link-text-blue{
+    background-color: blue;
+}
+.link-text-green{
+    background-color: green;
+}
+
+.section-links{
+    display: flex;
+    padding: 0 25px;
+}
+
+.section-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0 25px;
+}
+

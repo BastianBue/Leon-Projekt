@@ -1,0 +1,38 @@
+nav{
+    position: fixed;
+}
+
+.nav-references{
+    display: flex;
+    justify-content: space-between;
+    background-color: #bbbbbb;
+    height: 25px;
+    align-items: center;
+}
+
+.nav-references p{
+    margin: 0;
+    color:black;
+    font-size: 15px;
+}
+
+.nav-bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo{
+    height: 45px ;
+}
+
+.nav-item{
+    color: black;
+}
+
+.nav-item-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
